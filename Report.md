@@ -8,7 +8,7 @@ The result should look like this with @elonmusk as an example:
 
 2. We tried using the React Native framework with the Google Firebase app development software. But, we were unable to put all the different files togther to produce the user interface. We also had no experience in using React Native nor Firebase. Hence, we used a python desktop application implemented using the Tkinter python library as our second UI. This library renders the GUI. The user enters the twitter handle through the desktop app and we display whether the acoount is a bot or not. The rest of the information is displayed on the console. Run the FINAL_Application file. A sample code for the UI is also provided (FrontEnd_Desktop_App_Sample file). Please make sure you have the twitter_image.jpg file in the same directory since we used the image on our UI.
 
-3. The coding was entirely done in Python scripting language with the help of various libraries. 
+3. The coding was entirely done in Python scripting language with the help of various libraries and APIs. 
 
 
 
