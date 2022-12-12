@@ -24,10 +24,10 @@ def button_handler():
     #text.insert(tk.END,final)
 
     #API Keys
-    Consumer_Key =  'Fg3XpAGkG4DT4e3PxGKqQt73Y'
-    Consumer_Secret = 'M1wf2rj4prbam8t9cVykR8ykKmruWdzLRzixfMlDd4XfR9TElI'
-    Access_Token = '1569770373687967744-atAYRutU9QAk6k9G8UJHO6ZKTAg8pK'
-    Access_Token_Secret = '8v6JzlBfdNDZzXXn5lKW4Fq1M36GYoRGYm1uihOqKHkw0'
+    Consumer_Key =  ''
+    Consumer_Secret = ''
+    Access_Token = ''
+    Access_Token_Secret = ''
 
     #Authenticate to Twitter
     auth = tweepy.OAuthHandler(Consumer_Key, Consumer_Secret)
@@ -35,7 +35,7 @@ def button_handler():
     api = tweepy.API(auth, wait_on_rate_limit = True)
 
     #Botometer authentication
-    rapidapi_key = "edbd4ef82cmsh451f77e71d3ce33p16e014jsn78dd29491688"
+    rapidapi_key = ""
     bom = botometer.Botometer(wait_on_ratelimit=True,
                               rapidapi_key=rapidapi_key,
                               consumer_key = Consumer_Key,
